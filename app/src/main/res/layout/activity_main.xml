@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    tools:context="by.fpmi.lab5.geolocation.MainActivity"
+    android:isScrollContainer="true">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:id="@+id/lbStatus"
+            android:layout_weight="0.5"
+            android:gravity="end"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/isStarted"
+                android:id="@+id/status"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusIcon"
+                android:src="@drawable/ic_done_black_24dp"
+                android:layout_weight="0.1"
+                android:tint="@color/iconDone"
+                android:contentDescription="@string/isStarted"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/closeIcon"
+                android:src="@drawable/ic_close"
+                android:layout_weight="0.1"
+                android:tint="@color/iconClose"
+                android:visibility="invisible"
+                android:contentDescription="@string/isStarted"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude"
+            android:id="@+id/lbLatitude"
+            android:layout_weight="0.5"
+            android:gravity="end"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/latitude"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude"
+            android:id="@+id/lbLongitude"
+            android:layout_weight="0.5"
+            android:gravity="end"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/longitude"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/altitude"
+            android:id="@+id/lbAltitude"
+            android:layout_weight="0.5"
+            android:gravity="end"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/altitude"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/elapsedTime"
+            android:id="@+id/lbTime"
+            android:layout_weight="0.5"
+            android:gravity="end"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/elapsedTime"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:id="@+id/start"
+            android:layout_weight="1"
+            style="?attr/actionButtonStyle"
+            android:onClick="onStart"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:id="@+id/stop"
+            android:layout_weight="1"
+            style="?attr/actionButtonStyle"
+            android:onClick="onStop"/>
+    </LinearLayout>
+
+</TableLayout>

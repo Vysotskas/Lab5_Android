@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.x"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.opengis.net/kml/2.2
+http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+  <Placemark>
+    <name>1</name>
+      <description></description>
+      <Point>
+        <coordinates>27.58526176,53.88575422,208.00000</coordinates>
+      </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>2</name>
+      <description></description>
+      <Point>
+        <coordinates>27.58373000,53.88624000,206.00000</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>3</name>
+      <description></description>
+      <Point>
+        <coordinates>27.58283000,53.88644000,209.00000</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>4</name>
+      <description></description>
+      <Point>
+        <coordinates>28.777000,54.777700,206.00000</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>5</name>
+      <description></description>
+      <Point>
+        <coordinates>27.54465800,54.444000,205.00000</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>6</name>
+      <description></description>
+      <Point>
+        <coordinates>28.50003000,55.8866600,204.00000</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>7</name>
+      <description></description>
+      <Point>
+        <coordinates>29.08283000,56.88644000,210.00000</coordinates>
+      </Point>
+    </Placemark>
+</kml>
+

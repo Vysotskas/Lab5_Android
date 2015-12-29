@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GeoLocation</string>
+    <string name="status">Status</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="altitude">Altitude</string>
+    <string name="elapsedTime">Elapsed Time</string>
+    <string name="isStarted">Running</string>
+    <string name="isStopped">Stopped</string>
+    <string name="timeUnit">ms</string>
+</resources>
